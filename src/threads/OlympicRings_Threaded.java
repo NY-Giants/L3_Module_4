@@ -52,7 +52,7 @@ public class OlympicRings_Threaded {
 		
 		new Thread(() -> { 
 			Olympic3.move(400); 
-			Olympic3.moveTo(1200, 700);
+			Olympic3.moveTo(400, 700);
 			for(int i = 0; i < 1000; i++) {
 				Olympic3.penDown();
 				Olympic3.setPenColor(Color.RED);
